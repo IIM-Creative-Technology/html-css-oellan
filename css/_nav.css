@@ -1,17 +1,40 @@
 nav {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: var(--white);
-    font-size: 2em;
-    padding: .5rem .75rem;
+    display          : flex;
+    flex-direction   : row;
+    align-items      : center;
+    color            : var(--white);
+    font-size        : 2em;
+    padding          : .5rem .75rem;
     background-color : var(--black);
     height           : 3rem;
-    box-shadow       : rgba(0, 0, 0, 0.15) 0px -3px 0px 0px inset
+    box-shadow       : rgba(0, 0, 0, 0.15) 0 -3px 0 0 inset
+}
+
+nav > *:not(.flex-right):not(:last-child) {
+
+    margin-right : .3em;
 }
 
 nav .nav-icon {
 
-    margin-right: .4em;
+    margin-right : .4em;
+}
+
+.button {
+
+    border           : 3px solid var(--white);
+    border-radius    : .2em;
+    padding          : .1em .2em;
+    font-size        : 80%;
+    background-color : var(--black);
+    color            : var(--white);
+    transition       : background-color .2s ease-in-out,
+    color .2s ease-in-out;
+}
+
+.button:hover {
+
+    background-color : var(--white);
+    color            : var(--black);
 }

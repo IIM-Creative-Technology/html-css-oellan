@@ -1,0 +1,42 @@
+@import "_colors.css";
+@import "_common.css";
+@import "icon_font.css";
+
+main {
+
+    height    : calc(100vh - 4em);
+    max-width : 960px;
+    margin    : 0 auto;
+}
+
+.tags {
+
+    display   : flex;
+    flex-wrap : wrap;
+}
+
+.tag {
+
+    background-color : var(--violet);
+    padding          : .2em .6em;
+    text-transform   : uppercase;
+    color            : var(--white);
+    border-radius    : 10em;
+    margin-right     : .5em;
+}
+
+.tag:before {
+
+    content : '#';
+}
+
+.card {
+    display: flex;
+}
+
+.goto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
