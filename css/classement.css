@@ -40,3 +40,8 @@ tr.active-line {
     color: var(--white);
     background-color: var(--black);
 }
+
+.flex-right {
+
+    margin-left: auto;
+}
