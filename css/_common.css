@@ -1,0 +1,6 @@
+@import "_nav.css";
+
+html {
+    color: var(--black);
+    font-family : sans-serif;
+}

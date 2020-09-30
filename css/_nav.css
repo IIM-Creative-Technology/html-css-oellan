@@ -1,0 +1,17 @@
+nav {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--white);
+    font-size: 2em;
+    padding: .5rem .75rem;
+    background-color : var(--black);
+    height           : 3rem;
+    box-shadow       : rgba(0, 0, 0, 0.15) 0px -3px 0px 0px inset
+}
+
+nav .nav-icon {
+
+    margin-right: .4em;
+}

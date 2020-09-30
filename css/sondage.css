@@ -1,0 +1,60 @@
+@import "_colors.css";
+@import "_common.css";
+@import "icon_font.css";
+
+main {
+    height          : calc(100vh - 4em);
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+}
+
+h1 {
+
+    text-align    : center;
+    height        : 10vh;
+    font-size     : 8vh;
+    padding       : 0 1rem;
+    box-sizing    : border-box;
+    margin        : 0;
+    margin-bottom : .2em;
+    overflow      : hidden;
+}
+
+#possible_responses {
+
+    height          : 70vh;
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       : wrap;
+    justify-content : flex-start;
+    align-items     : stretch;
+    align-content   : stretch;
+}
+
+#possible_responses .response {
+
+    font-weight     : bold;
+    margin          : .1em;
+    text-align      : center;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    overflow-wrap   : break-word;
+    word-break      : break-word;
+    order           : 0;
+    flex            : 1 1 auto;
+    width           : calc((100vw - .3em - 2rem) / 3);
+    box-sizing      : border-box;
+    border-radius   : .2rem;
+    padding         : 1rem;
+    font-size       : 8vmin;
+    box-shadow      : rgba(0, 0, 0, 0.15) 0px -0.25rem 0px 0px inset;
+    cursor          : pointer;
+}
+
+footer {
+
+    height : 10vh;
+}
